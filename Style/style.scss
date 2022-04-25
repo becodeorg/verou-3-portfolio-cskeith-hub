@@ -1,0 +1,25 @@
+body{
+    background-color: aqua;
+
+
+
+    .border, nav, header, main{
+        border: 1px solid black;
+    }
+    nav{
+        display: flex;
+        margin-bottom: 1rem;
+    }
+    header{
+        text-align: center;
+        padding: 1rem;
+    }
+
+    main{
+      text-align: center;
+    }
+    footer{
+        display: flex;
+    }
+
+}

@@ -1,0 +1,30 @@
+body {
+  background-color: aqua;
+}
+
+body .border, body nav, body header, body main {
+  border: 1px solid black;
+}
+
+body nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+body header {
+  text-align: center;
+  padding: 1rem;
+}
+
+body main {
+  text-align: center;
+}
+
+body footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=style.css.map */
