@@ -181,6 +181,19 @@ body main .projectCard .projectImage {
           transform: translate(-50%, -50%);
 }
 
+body main .projectCard .projectTitle {
+  position: absolute;
+  top: 7%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: #60778ed6;
+  width: 15rem;
+  color: white;
+}
+
 body main .projectCard .projectText {
   border: 1px solid white;
   border-radius: 5px;
