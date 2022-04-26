@@ -1,5 +1,5 @@
 body {
-  background-color: #6c6c6c;
+  background-color: #60778ee8;
 }
 
 body .border,
@@ -7,6 +7,10 @@ body nav,
 body header,
 body main {
   border: 1px solid black;
+}
+
+body .backGroundColor, body header, body main, body footer {
+  background-color: #bcbcbc;
 }
 
 body nav {
@@ -91,20 +95,35 @@ body header {
   text-align: center;
   padding: 1rem;
   border-radius: 5px;
-  background-color: #60778e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 body header .hero {
+  width: 100%;
   position: relative;
   overflow: hidden;
   height: 20rem;
-  border: 1px solid white;
+  border: 1px solid black;
   border-radius: 5px;
 }
 
+@media only screen and (min-width: 511px) {
+  body header .hero {
+    max-width: 460px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
+
 body header .hero img {
-  -webkit-filter: grayscale(60%);
-          filter: grayscale(60%);
+  -webkit-filter: grayscale(3%);
+          filter: grayscale(3%);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -157,7 +176,6 @@ body main {
   text-align: center;
   overflow: hidden;
   border-radius: 5px;
-  background-color: #60778e;
 }
 
 body main .projectCard {
@@ -171,9 +189,18 @@ body main .projectCard {
   height: 30rem;
 }
 
+@media only screen and (min-width: 511px) {
+  body main .projectCard {
+    max-width: 460px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
+
 body main .projectCard .projectImage {
-  -webkit-filter: blur(5px);
-          filter: blur(5px);
+  -webkit-filter: blur(1px);
+          filter: blur(1px);
   position: absolute;
   top: 80%;
   left: 51%;
@@ -230,5 +257,77 @@ body footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 0.5rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body footer .footerLeft {
+  margin-right: 6%;
+}
+
+@media only screen and (min-width: 2560px) {
+  body footer .footerLeft {
+    margin-right: 60%;
+  }
+}
+
+@media only screen and (min-width: 425px) {
+  body footer .footerLeft {
+    margin-left: 10%;
+  }
+}
+
+body footer .footerLeft .sponsors {
+  margin-top: 2rem;
+}
+
+body footer .footerLeft .copy {
+  margin-top: 2.5rem;
+}
+
+body footer .footerRight {
+  margin-left: 6%;
+}
+
+@media only screen and (min-width: 2560px) {
+  body footer .footerRight {
+    margin-left: 60%;
+  }
+}
+
+@media only screen and (min-width: 425px) {
+  body footer .footerRight {
+    margin-left: 10%;
+  }
+}
+
+body footer .footerRight .contactInfo {
+  padding-top: 0.5rem;
+}
+
+body footer .footerRight .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body footer .footerRight .social .socialGit {
+  margin-top: 0.4rem;
+}
+
+body footer .footerRight .social .socialLd {
+  margin-top: 0.4rem;
+  margin-left: 0.4rem;
+}
+
+body footer .footerRight .social .socialBecode {
+  width: 50px;
+  margin-right: 0.7rem;
 }
 /*# sourceMappingURL=style.css.map */
