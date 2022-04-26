@@ -134,9 +134,57 @@ body {
     }
 
     main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         text-align: center;
         overflow: hidden;
-
+        border-radius: 5px;
+        background-color: #60778e;
+        .projectCard{
+            position: relative;
+            width: 90%;
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+            border: 1px solid rgb(0, 0, 0);
+            border-radius: 5px;
+            overflow: hidden;
+            height: 30rem;
+            .projectImage{
+                filter: blur(5px);
+                position: absolute;
+                top: 80%;
+                left: 51%;
+                transform: translate(-50%, -50%);
+            }
+            .projectText{
+                border: 1px solid rgb(255, 255, 255);
+                border-radius: 5px;
+                background-color: #60778ed6;
+                width: 15rem;
+                color: rgb(255, 255, 255);
+                position: absolute;
+                top: 70%;
+                left: 51%;
+                transform: translate(-50%, -50%);
+            }
+            .projectButton{
+                position: absolute;
+                top: 93%;
+                left: 51%;
+                transform: translate(-50%, -50%);
+                border: 1px solid rgb(255, 255, 255);
+                border-radius: 5px; 
+                height: 2rem;
+                width: 6rem;
+                color: rgb(255, 255, 255);
+                background-color: #60778e;
+                a{
+                    color:rgb(255, 255, 255) ;
+                    text-decoration: none;
+                }
+            }
+        }
         
     }
 
