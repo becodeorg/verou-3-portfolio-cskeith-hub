@@ -17,15 +17,18 @@ body nav {
       -ms-flex-pack: center;
           justify-content: center;
   margin-bottom: 1rem;
+  background-color: #bcbcbc;
+  border-radius: 5px;
 }
 
 body nav .brand {
-  margin-right: 3rem;
+  margin-right: 1rem;
+  margin-top: 0.2rem;
 }
 
 body nav .menu {
   margin-top: 0.5rem;
-  margin-left: 3rem;
+  margin-left: 4rem;
 }
 
 body nav .menu .dropDown {
@@ -84,12 +87,65 @@ body nav .menu .dropDown .show {
 }
 
 body header {
+  margin-bottom: 1rem;
   text-align: center;
   padding: 1rem;
+  border-radius: 5px;
+  background-color: #60778e;
+}
+
+body header .hero {
+  position: relative;
+  overflow: hidden;
+  height: 20rem;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+body header .hero img {
+  -webkit-filter: grayscale(60%);
+          filter: grayscale(60%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+body header .hero .colinText {
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: #60778ee8;
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+body header .hero .aboutMeButton {
+  position: absolute;
+  top: 90%;
+  left: 80%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border: 1px solid white;
+  border-radius: 5px;
+  height: 3rem;
+  width: 6rem;
+  color: white;
+  background-color: #60778e;
+}
+
+body header .hero .aboutMeButton a {
+  color: white;
+  text-decoration: none;
 }
 
 body main {
   text-align: center;
+  overflow: hidden;
 }
 
 body footer {

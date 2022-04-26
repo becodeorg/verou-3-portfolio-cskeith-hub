@@ -12,14 +12,17 @@ body {
         display: flex;
         justify-content: center;
         margin-bottom: 1rem;
+        background-color: rgb(188, 188, 188);
+        border-radius: 5px;
 
         .brand {
-            margin-right: 3rem;
+            margin-right: 1rem;
+            margin-top: 0.2rem;
         }
 
         .menu {
             margin-top: 0.5rem;
-            margin-left: 3rem;
+            margin-left: 4rem;
 
             .dropDown {
                 border: 1px solid white;
@@ -80,12 +83,61 @@ body {
 
 
     header {
+        margin-bottom: 1rem;
         text-align: center;
         padding: 1rem;
+        border-radius: 5px;
+        background-color: #60778e;
+        .hero{
+            position: relative;
+            overflow: hidden;
+            height: 20rem;
+            border: 1px solid rgb(255, 255, 255);
+            border-radius: 5px; 
+           
+            img{
+                filter:grayscale(60%) ;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+             
+            }
+            .colinText{
+                color: rgb(255, 255, 255);
+                border: 1px solid rgb(255, 255, 255);
+                border-radius: 5px; 
+                background-color: #60778ee8;
+                position: absolute;
+                top: 20%;
+                left: 35%;
+                transform: translate(-50%, -50%);
+            }
+
+            .aboutMeButton{
+                position: absolute;
+                top: 90%;
+                left: 80%;
+                transform: translate(-50%, -50%);
+                border: 1px solid rgb(255, 255, 255);
+                border-radius: 5px; 
+                height: 3rem;
+                width: 6rem;
+                color: rgb(255, 255, 255);
+                background-color: #60778e;
+                a{
+                    color:rgb(255, 255, 255) ;
+                    text-decoration: none;
+                }
+            }
+        }
     }
 
     main {
         text-align: center;
+        overflow: hidden;
+
+        
     }
 
     footer {
