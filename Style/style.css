@@ -1,8 +1,11 @@
 body {
-  background-color: aqua;
+  background-color: #6c6c6c;
 }
 
-body .border, body nav, body header, body main {
+body .border,
+body nav,
+body header,
+body main {
   border: 1px solid black;
 }
 
@@ -10,7 +13,74 @@ body nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-bottom: 1rem;
+}
+
+body nav .brand {
+  margin-right: 3rem;
+}
+
+body nav .menu {
+  margin-top: 0.5rem;
+  margin-left: 3rem;
+}
+
+body nav .menu .dropDown {
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+body nav .menu .dropDown .dropbtn {
+  height: 3rem;
+  background-color: #60778e;
+  border-radius: 5px;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+body nav .menu .dropDown .dropbtn:hover,
+body nav .menu .dropDown .dropbtn:focus {
+  background-color: #60778e;
+}
+
+body nav .menu .dropDown .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+body nav .menu .dropDown .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #60778e;
+  border: 1px solid #f7f7f4;
+  border-radius: 5px;
+  min-width: 100px;
+  overflow: auto;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  text-align: center;
+}
+
+body nav .menu .dropDown .dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+body nav .menu .dropDown .dropdown a:hover {
+  background-color: #ddd;
+}
+
+body nav .menu .dropDown .show {
+  display: block;
 }
 
 body header {
