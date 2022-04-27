@@ -235,17 +235,26 @@ body {
             }
             @media only screen and (min-width: 768px) {
                 display: flex;
-                margin-right: 30%;
             }
             @media only screen and (min-width: 425px) {
                 margin-left: 10%;
             }
             .sponsors {
                 margin-top: 2rem;
+                @media only screen and (min-width: 768px) {
+                    width: 200px;
+                    margin-top: 1.5rem;
+
+                }
             }
 
             .copy {
                 margin-top: 2.5rem;
+                @media only screen and (min-width: 768px) {
+                    width: 200px;
+                    margin-top: 2.5rem;
+
+                   }
             }
         }
 
@@ -256,8 +265,9 @@ body {
             }
             @media only screen and (min-width: 768px) {
                 display: flex;
-                margin-left: 30%;
                 margin-top: 1rem;
+                margin-bottom: 0.8rem;
+                margin-right: 15%;
             }
             @media only screen and (min-width: 425px) {
                 margin-left: 10%;

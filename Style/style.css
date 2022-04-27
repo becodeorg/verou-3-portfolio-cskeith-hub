@@ -282,7 +282,6 @@ body footer .footerLeft {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-right: 30%;
   }
 }
 
@@ -296,8 +295,22 @@ body footer .footerLeft .sponsors {
   margin-top: 2rem;
 }
 
+@media only screen and (min-width: 768px) {
+  body footer .footerLeft .sponsors {
+    width: 200px;
+    margin-top: 1.5rem;
+  }
+}
+
 body footer .footerLeft .copy {
   margin-top: 2.5rem;
+}
+
+@media only screen and (min-width: 768px) {
+  body footer .footerLeft .copy {
+    width: 200px;
+    margin-top: 2.5rem;
+  }
 }
 
 body footer .footerRight {
@@ -315,8 +328,9 @@ body footer .footerRight {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-left: 30%;
     margin-top: 1rem;
+    margin-bottom: 0.8rem;
+    margin-right: 15%;
   }
 }
 
