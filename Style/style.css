@@ -30,9 +30,41 @@ body nav .brand {
   margin-top: 0.2rem;
 }
 
+body nav .notDropMenu {
+  display: none;
+}
+
+@media only screen and (min-width: 426px) {
+  body nav .notDropMenu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 1.1rem;
+    margin-left: 2rem;
+  }
+  body nav .notDropMenu a {
+    text-decoration: none;
+    color: aliceblue;
+    margin: 0.2rem;
+    padding-top: 0.2rem;
+    text-align: center;
+    width: 75px;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #60778e;
+  }
+}
+
 body nav .menu {
   margin-top: 0.5rem;
   margin-left: 4rem;
+}
+
+@media only screen and (min-width: 426px) {
+  body nav .menu {
+    display: none;
+  }
 }
 
 body nav .menu .dropDown {
