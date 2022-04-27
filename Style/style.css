@@ -277,6 +277,15 @@ body footer .footerLeft {
   }
 }
 
+@media only screen and (min-width: 768px) {
+  body footer .footerLeft {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 30%;
+  }
+}
+
 @media only screen and (min-width: 425px) {
   body footer .footerLeft {
     margin-left: 10%;
@@ -301,6 +310,16 @@ body footer .footerRight {
   }
 }
 
+@media only screen and (min-width: 768px) {
+  body footer .footerRight {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 30%;
+    margin-top: 1rem;
+  }
+}
+
 @media only screen and (min-width: 425px) {
   body footer .footerRight {
     margin-left: 10%;
@@ -311,10 +330,22 @@ body footer .footerRight .contactInfo {
   padding-top: 0.5rem;
 }
 
+@media only screen and (min-width: 768px) {
+  body footer .footerRight .contactInfo {
+    margin-right: 0.5rem;
+  }
+}
+
 body footer .footerRight .social {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+@media only screen and (min-width: 768px) {
+  body footer .footerRight .social {
+    margin-top: 0.2rem;
+  }
 }
 
 body footer .footerRight .social .socialGit {

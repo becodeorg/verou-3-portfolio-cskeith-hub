@@ -233,6 +233,10 @@ body {
             @media only screen and (min-width: 2560px) {
                 margin-right: 60%;
             }
+            @media only screen and (min-width: 768px) {
+                display: flex;
+                margin-right: 30%;
+            }
             @media only screen and (min-width: 425px) {
                 margin-left: 10%;
             }
@@ -250,15 +254,26 @@ body {
             @media only screen and (min-width: 2560px) {
                 margin-left: 60%;
             }
+            @media only screen and (min-width: 768px) {
+                display: flex;
+                margin-left: 30%;
+                margin-top: 1rem;
+            }
             @media only screen and (min-width: 425px) {
                 margin-left: 10%;
             }
             .contactInfo {
                 padding-top: 0.5rem;
+                @media only screen and (min-width: 768px) {
+                    margin-right: 0.5rem ;
+                }
             }
 
             .social {
                 display: flex;
+                @media only screen and (min-width: 768px) {
+                    margin-top: 0.2rem;
+                }
                 .socialGit{
                     margin-top: 0.4rem;
                 }
