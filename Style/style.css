@@ -2,14 +2,15 @@ body {
   background-color: #60778ee8;
 }
 
-body .border,
-body nav,
-body header,
-body main {
+body .border, body nav, body header, body footer, body main {
   border: 1px solid black;
 }
 
-body .backGroundColor, body header, body main, body footer {
+body .borderRadius, body nav, body footer, body .dropDown {
+  border-radius: 5px;
+}
+
+body .backGroundColor, body nav, body header, body main, body footer {
   background-color: #bcbcbc;
 }
 
@@ -17,17 +18,15 @@ body nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-bottom: 1rem;
-  background-color: #bcbcbc;
-  border-radius: 5px;
 }
 
 body nav .brand {
-  margin-right: 1rem;
   margin-top: 0.2rem;
+  margin-left: 0.5rem;
 }
 
 body nav .notDropMenu {
@@ -40,7 +39,7 @@ body nav .notDropMenu {
     display: -ms-flexbox;
     display: flex;
     margin-top: 1.1rem;
-    margin-left: 2rem;
+    margin-left: 1rem;
   }
   body nav .notDropMenu a {
     text-decoration: none;
@@ -58,7 +57,7 @@ body nav .notDropMenu {
 
 body nav .menu {
   margin-top: 0.5rem;
-  margin-left: 4rem;
+  margin-right: 0.5rem;
 }
 
 @media only screen and (min-width: 426px) {
@@ -69,7 +68,8 @@ body nav .menu {
 
 body nav .menu .dropDown {
   border: 1px solid white;
-  border-radius: 5px;
+  background-color: #60778e;
+  margin-top: 0.2rem;
 }
 
 body nav .menu .dropDown .dropbtn {
@@ -77,7 +77,10 @@ body nav .menu .dropDown .dropbtn {
   background-color: #60778e;
   border-radius: 5px;
   color: white;
-  padding: 16px;
+  padding: 14px;
+  margin-bottom: 1rem;
+  height: 20px;
+  border: 1px solid white;
   font-size: 16px;
   border: none;
   cursor: pointer;
@@ -122,289 +125,33 @@ body nav .menu .dropDown .show {
   display: block;
 }
 
-body header {
-  margin-bottom: 1rem;
-  text-align: center;
-  padding: 1rem;
-  border-radius: 5px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-body header .hero {
-  width: 100%;
-  position: relative;
-  overflow: hidden;
-  height: 20rem;
-  border: 1px solid black;
-  border-radius: 5px;
-}
-
-@media only screen and (min-width: 511px) {
-  body header .hero {
-    max-width: 460px;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-  }
-}
-
-body header .hero img {
-  -webkit-filter: grayscale(3%);
-          filter: grayscale(3%);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-}
-
-body header .hero .colinText {
-  color: white;
-  border: 1px solid white;
-  border-radius: 5px;
-  background-color: #60778ee8;
-  position: absolute;
-  top: 20%;
-  left: 35%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-}
-
-body header .hero .aboutMeButton {
-  position: absolute;
-  top: 90%;
-  left: 80%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  border: 1px solid white;
-  border-radius: 5px;
-  height: 3rem;
-  width: 6rem;
-  color: white;
-  background-color: #60778e;
-}
-
-body header .hero .aboutMeButton a {
-  color: white;
-  text-decoration: none;
-}
-
-body main {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-  overflow: hidden;
-  border-radius: 5px;
-}
-
-body main .projectCard {
-  position: relative;
-  width: 90%;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-  border: 1px solid black;
-  border-radius: 5px;
-  overflow: hidden;
-  height: 30rem;
-}
-
-@media only screen and (min-width: 511px) {
-  body main .projectCard {
-    max-width: 460px;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-  }
-}
-
-body main .projectCard .projectImage {
-  -webkit-filter: blur(1px);
-          filter: blur(1px);
-  position: absolute;
-  top: 80%;
-  left: 51%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-}
-
-body main .projectCard .projectTitle {
-  position: absolute;
-  top: 7%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  border: 1px solid white;
-  border-radius: 5px;
-  background-color: #60778ed6;
-  width: 15rem;
-  color: white;
-}
-
-body main .projectCard .projectText {
-  border: 1px solid white;
-  border-radius: 5px;
-  background-color: #60778ed6;
-  width: 15rem;
-  color: white;
-  position: absolute;
-  top: 70%;
-  left: 51%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-}
-
-body main .projectCard .projectButton {
-  position: absolute;
-  top: 93%;
-  left: 51%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  border: 1px solid white;
-  border-radius: 5px;
-  height: 2rem;
-  width: 6rem;
-  color: white;
-  background-color: #60778e;
-}
-
-body main .projectCard .projectButton a {
-  color: white;
-  text-decoration: none;
-}
-
 body footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 0.5rem;
-  border: 1px solid black;
-  border-radius: 5px;
-  color: white;
+  color: black;
   text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-body footer .footerLeft {
-  margin-right: 6%;
-}
-
-@media only screen and (min-width: 2560px) {
-  body footer .footerLeft {
-    margin-right: 60%;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  body footer .footerLeft {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-}
-
-@media only screen and (min-width: 425px) {
-  body footer .footerLeft {
-    margin-left: 10%;
-  }
-}
-
-body footer .footerLeft .sponsors {
-  margin-top: 2rem;
-}
-
-@media only screen and (min-width: 768px) {
-  body footer .footerLeft .sponsors {
-    width: 200px;
-    margin-top: 1.5rem;
-  }
-}
-
-body footer .footerLeft .copy {
-  margin-top: 2.5rem;
-}
-
-@media only screen and (min-width: 768px) {
-  body footer .footerLeft .copy {
-    width: 200px;
-    margin-top: 2.5rem;
-  }
-}
-
-body footer .footerRight {
-  margin-left: 6%;
-}
-
-@media only screen and (min-width: 2560px) {
-  body footer .footerRight {
-    margin-left: 60%;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  body footer .footerRight {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-top: 1rem;
-    margin-bottom: 0.8rem;
-    margin-right: 15%;
-  }
-}
-
-@media only screen and (min-width: 425px) {
-  body footer .footerRight {
-    margin-left: 10%;
-  }
-}
-
-body footer .footerRight .contactInfo {
-  padding-top: 0.5rem;
-}
-
-@media only screen and (min-width: 768px) {
-  body footer .footerRight .contactInfo {
-    margin-right: 0.5rem;
-  }
-}
-
-body footer .footerRight .social {
+body footer .footerBox {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
-@media only screen and (min-width: 768px) {
-  body footer .footerRight .social {
-    margin-top: 0.2rem;
-  }
+body footer .footerBox .copy {
+  width: 90px;
+  margin-top: 1.4rem;
 }
 
-body footer .footerRight .social .socialGit {
-  margin-top: 0.4rem;
-}
-
-body footer .footerRight .social .socialLd {
-  margin-top: 0.4rem;
-  margin-left: 0.4rem;
-}
-
-body footer .footerRight .social .socialBecode {
-  width: 50px;
-  margin-right: 0.7rem;
+body footer .footerBox .socialGit, body footer .footerBox .socialLd {
+  margin-top: 0.5rem;
+  margin-right: 0.3rem;
 }
 /*# sourceMappingURL=style.css.map */
