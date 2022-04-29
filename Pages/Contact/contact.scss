@@ -3,15 +3,48 @@ main{
     background-image: url(/images/backGroundWallPaper.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    .box{
-        .contactInfo{
-
-        }
-        .contactMapImage{
+    .box1{
         display: flex;
-        justify-content: center; 
+        justify-content: center;
+        text-align: left;
+        padding: 1rem;
+
+        .colin{
+            border: 1px solid white;
+            width: 200px;    
+        }
+        
+    }
+    .mapImage{
         overflow: hidden;
+        display: flex;
+        justify-content: center;
+        width: 90vw;
+        margin-left: 1rem;
+    }
+    .box2{
+        display: flex;
+        text-align: left;
+        justify-content: space-evenly;
+        padding: 0.5rem;
+        .address{
+            margin-right: 0.5rem;
+        }
+        .contact{
+            .socialIcons {
+                display: flex;
+                justify-content: center;
+                margin-right: 1rem;
+
+                .socialGit {
+                    margin-top: 0.5rem;
+                }
+
+                .socialLd {
+                    margin-top: 0.5rem;
+                    margin-left: 0.4rem;
+                }
+            }
         }
     }
-
 }
