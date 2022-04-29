@@ -1,28 +1,73 @@
 main {
-    text-align: center;
-    background-image: url(/images/backGroundWallPaper.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-
+    
     .box1 {
         display: flex;
         justify-content: center;
-        text-align: left;
-        padding: 1rem;
+        width: 90vw;
+        margin-top: 1rem;
+        margin-left: 1rem;
+
 
         .getInTouch{
-            
-            background-color: rgba(70, 69, 69, 0.941);
+            background-color: rgba(0, 0, 0, 0.681);
+            color: white;
+            // border: 1px solid white;
+            text-align: center;
+            padding: 1rem;
+            border-radius: 5px;
         }
 
     }
 
+    .box2 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-evenly;
+
+        .address {
+            // border: 1px solid white;
+            border-radius: 5px;
+            background-color: rgba(0, 0, 0, 0.681);
+            color: white;
+            width: 90vw;
+            margin-left: 1rem;
+        }
+
+        .contact {
+            // border: 1px solid white;
+            border-radius: 5px;
+            background-color: rgba(0, 0, 0, 0.681);
+            color: white;
+            width: 90vw;
+            margin-left: 1rem;
+            .socialIcons {
+                display: flex;
+                justify-content: center;
+                margin-right: 1rem;
+                
+
+                .socialGit {
+                    margin-top: 0.5rem;
+                }
+
+                .socialLd {
+                    margin-top: 0.5rem;
+                    margin-left: 0.4rem;
+                }
+            }
+        }
+    }
+    
     .mapImage {
         overflow: hidden;
         display: flex;
         justify-content: center;
         width: 90vw;
         margin-left: 1rem;
+        // border: 1px solid white;
+        border-radius: 5px;
+        margin-bottom: 1rem;
 
         @media only screen and (min-width:375px) {
             margin-left: 1.2rem;
@@ -44,33 +89,5 @@ main {
             margin-left: 4rem;
         }
 
-    }
-
-    .box2 {
-        display: flex;
-        text-align: left;
-        justify-content: space-evenly;
-        padding: 0.5rem;
-
-        .address {
-            margin-right: 0.5rem;
-        }
-
-        .contact {
-            .socialIcons {
-                display: flex;
-                justify-content: center;
-                margin-right: 1rem;
-
-                .socialGit {
-                    margin-top: 0.5rem;
-                }
-
-                .socialLd {
-                    margin-top: 0.5rem;
-                    margin-left: 0.4rem;
-                }
-            }
-        }
     }
 }
