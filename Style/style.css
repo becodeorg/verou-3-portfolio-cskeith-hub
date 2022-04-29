@@ -110,6 +110,10 @@
   display: none;
 }
 
+* body main {
+  text-align: center;
+}
+
 * body footer {
   border: 1px solid black;
   margin-top: 1rem;
