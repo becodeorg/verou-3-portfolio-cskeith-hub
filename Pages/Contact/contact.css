@@ -16,9 +16,8 @@ main .box1 {
   padding: 1rem;
 }
 
-main .box1 .colin {
-  border: 1px solid white;
-  width: 200px;
+main .box1 .getInTouch {
+  background-color: rgba(70, 69, 69, 0.941);
 }
 
 main .mapImage {
@@ -31,6 +30,36 @@ main .mapImage {
           justify-content: center;
   width: 90vw;
   margin-left: 1rem;
+}
+
+@media only screen and (min-width: 375px) {
+  main .mapImage {
+    margin-left: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 425px) {
+  main .mapImage {
+    margin-left: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  main .mapImage {
+    margin-left: 2.3rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  main .mapImage {
+    margin-left: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  main .mapImage {
+    margin-left: 4rem;
+  }
 }
 
 main .box2 {

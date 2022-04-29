@@ -8,7 +8,7 @@
 * body {
   background-image: url(/images/backGroundWallPaper.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right;
 }
 
 * body header {
@@ -21,7 +21,7 @@
           justify-content: space-evenly;
   height: 4rem;
   padding-top: 1.4rem;
-  background-color: #e3e0e0;
+  background-color: rgba(70, 69, 69, 0.648);
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -33,11 +33,11 @@
 }
 
 * body header nav {
-  color: darkgray;
+  color: #1093bb;
 }
 
 * body header nav a {
-  color: #525050;
+  color: #1093bb;
 }
 
 * body header nav .menu {
@@ -71,7 +71,7 @@
 
 * body header nav .dropDown .dropbtn {
   margin-top: -0.6rem;
-  background-color: #e3e0e0;
+  background-color: rgba(70, 69, 69, 0.941);
   color: blue;
   padding: 10px;
   font-size: 20px;
@@ -92,7 +92,7 @@
 * body header nav .dropDown .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f1f1f1;
+  background-color: #f1f1f1f5;
   width: 50vw;
   height: 100vh;
   left: 0;
@@ -131,7 +131,7 @@
 * body footer {
   border: 1px solid black;
   text-align: center;
-  background-color: rgba(227, 224, 224, 0.862);
+  background-color: rgba(70, 69, 69, 0.648);
   color: #2980B9;
 }
 

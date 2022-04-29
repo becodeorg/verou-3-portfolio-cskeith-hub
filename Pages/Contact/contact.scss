@@ -1,36 +1,62 @@
-main{
+main {
     text-align: center;
     background-image: url(/images/backGroundWallPaper.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    .box1{
+
+    .box1 {
         display: flex;
         justify-content: center;
         text-align: left;
         padding: 1rem;
 
-        .colin{
-            border: 1px solid white;
-            width: 200px;    
+        .getInTouch{
+            
+            background-color: rgba(70, 69, 69, 0.941);
         }
-        
+
     }
-    .mapImage{
+
+    .mapImage {
         overflow: hidden;
         display: flex;
         justify-content: center;
         width: 90vw;
         margin-left: 1rem;
+
+        @media only screen and (min-width:375px) {
+            margin-left: 1.2rem;
+        }
+
+        @media only screen and (min-width:425px) {
+            margin-left: 1.5rem;
+        }
+
+        @media only screen and (min-width:768px) {
+            margin-left: 2.3rem;
+        }
+
+        @media only screen and (min-width:1024px) {
+            margin-left: 2.5rem;
+        }
+
+        @media only screen and (min-width:1440px) {
+            margin-left: 4rem;
+        }
+
     }
-    .box2{
+
+    .box2 {
         display: flex;
         text-align: left;
         justify-content: space-evenly;
         padding: 0.5rem;
-        .address{
+
+        .address {
             margin-right: 0.5rem;
         }
-        .contact{
+
+        .contact {
             .socialIcons {
                 display: flex;
                 justify-content: center;
