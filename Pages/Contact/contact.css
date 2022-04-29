@@ -1,5 +1,17 @@
 main {
   text-align: center;
-  margin-top: 1rem;
+  background-image: url(/images/backGroundWallPaper.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+main .box .contactMapImage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
 }
 /*# sourceMappingURL=contact.css.map */

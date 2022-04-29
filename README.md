@@ -2,14 +2,13 @@
 
 ## Goal is to make a Portfolio site
 
-Name: Rich Black [FOGRA39]
-Hex: #020202
+# Structure 
+- find a way to make the site maintainable
 
-Name: Eerie Black
-Hex: #181818
+# Responsive
+- make the viewable on all views
 
-Name: Dandelion
-Hex: #F6E71D
 
-Name: Metallic Yellow
-Hex: #F5D10D
+# Used of internet 
+
+- Background  https://wallpapersden.com/cool-4k-pattern-wallpaper/

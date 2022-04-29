@@ -6,7 +6,9 @@
 }
 
 * body {
-  background-color: darkgray;
+  background-image: url(/images/backGroundWallPaper.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 * body header {
@@ -19,8 +21,11 @@
           justify-content: space-evenly;
   height: 4rem;
   padding-top: 1.4rem;
-  background-color: darkgray;
-  color: white;
+  background-color: #e3e0e0;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 * body header .brand {
@@ -28,7 +33,11 @@
 }
 
 * body header nav {
-  color: yellow;
+  color: darkgray;
+}
+
+* body header nav a {
+  color: #525050;
 }
 
 * body header nav .menu {
@@ -61,18 +70,18 @@
 }
 
 * body header nav .dropDown .dropbtn {
-  margin-top: -0.5rem;
-  background-color: black;
-  color: #006eff;
+  margin-top: -0.6rem;
+  background-color: #e3e0e0;
+  color: blue;
   padding: 10px;
-  font-size: 16px;
+  font-size: 20px;
   border: none;
   cursor: pointer;
 }
 
 * body header nav .dropDown .dropbtn:hover,
 * body header nav .dropDown .dropbtn:focus {
-  background-color: #2980B9;
+  background-color: #e3e0e0;
 }
 
 * body header nav .dropDown .dropdown {
@@ -84,7 +93,11 @@
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  min-width: 160px;
+  width: 50vw;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  padding-top: 50%;
   -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   text-align: center;
@@ -112,13 +125,13 @@
 
 * body main {
   text-align: center;
+  color: white;
 }
 
 * body footer {
   border: 1px solid black;
-  margin-top: 1rem;
   text-align: center;
-  background-color: darkgray;
+  background-color: rgba(227, 224, 224, 0.862);
   color: #2980B9;
 }
 

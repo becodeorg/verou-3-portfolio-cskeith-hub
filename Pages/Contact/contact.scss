@@ -1,4 +1,17 @@
 main{
     text-align: center;
-    margin-top: 1rem;
+    background-image: url(/images/backGroundWallPaper.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    .box{
+        .contactInfo{
+
+        }
+        .contactMapImage{
+        display: flex;
+        justify-content: center; 
+        overflow: hidden;
+        }
+    }
+
 }
