@@ -22,15 +22,15 @@
             z-index: 100;
 
             .brand {
-                margin-top: -1.2rem;
+                margin-top: -1.5rem;
                 border-radius: 5px;
             }
 
             nav {
-                color: rgb(16, 147, 187);
+                color: rgb(255, 255, 255);
 
                 a {
-                    color: rgb(16, 147, 187);
+                    color: rgb(255, 255, 255);
                 }
 
                 .menu {
@@ -52,9 +52,9 @@
 
                     /* Dropdown Button */
                     .dropbtn {
-                        margin-top: -0.7rem;
+                        margin-top: -0.9rem;
                         background-color: rgba(0, 0, 0, 0);
-                        color: rgb(52, 114, 189);
+                        color: rgb(255, 255, 255);
                         padding: 10px;
                         font-size: 20px;
                         border: 1px solid white;
@@ -117,6 +117,19 @@
         main {
             text-align: center;
             color: white;
+
+            #name{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+                background-color: rgba(0, 0, 0, 0.681);
+                color: white;
+                // border: 1px solid white;
+                padding: 0.5rem;
+                border-radius: 5px;
+   
+            }
         }
 
         footer {

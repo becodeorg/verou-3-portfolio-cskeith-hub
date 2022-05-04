@@ -31,16 +31,16 @@
 }
 
 * body header .brand {
-  margin-top: -1.2rem;
+  margin-top: -1.5rem;
   border-radius: 5px;
 }
 
 * body header nav {
-  color: #1093bb;
+  color: white;
 }
 
 * body header nav a {
-  color: #1093bb;
+  color: white;
 }
 
 * body header nav .menu {
@@ -73,9 +73,9 @@
 }
 
 * body header nav .dropDown .dropbtn {
-  margin-top: -0.7rem;
+  margin-top: -0.9rem;
   background-color: rgba(0, 0, 0, 0);
-  color: #3472bd;
+  color: white;
   padding: 10px;
   font-size: 20px;
   border: 1px solid white;
@@ -130,6 +130,24 @@
 * body main {
   text-align: center;
   color: white;
+}
+
+* body main #name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.681);
+  color: white;
+  padding: 0.5rem;
+  border-radius: 5px;
 }
 
 * body footer {
