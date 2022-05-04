@@ -136,12 +136,12 @@
   border: 1px solid black;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.898);
-  color: #2980B9;
+  color: #3472bd;
 }
 
 * body footer a {
   text-decoration: none;
-  color: blue;
+  color: #3472bd;
 }
 
 * body footer nav {

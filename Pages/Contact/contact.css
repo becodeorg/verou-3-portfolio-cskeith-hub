@@ -5,9 +5,8 @@ main .box1 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 90vw;
   margin-top: 1rem;
-  margin-left: 1rem;
+  margin-left: 0.3rem;
 }
 
 main .box1 .getInTouch {

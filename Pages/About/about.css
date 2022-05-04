@@ -1,1 +1,99 @@
-/* No CSS *//*# sourceMappingURL=about.css.map */
+.photo {
+  margin: 0.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.photo img {
+  border-radius: 10px;
+}
+
+.aboutName {
+  margin-bottom: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.681);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.meInSentance {
+  margin-bottom: 1rem;
+  background-color: rgba(0, 0, 0, 0.681);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 1rem;
+  background-color: rgba(0, 0, 0, 0.681);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.skills table {
+  border: 2px solid #b87a40;
+  border-radius: 5px;
+  margin: 0.1rem;
+  background-color: #154551a9;
+  text-shadow: 2px 2px #180e04de;
+  height: 5rem;
+  width: 19rem;
+}
+
+.skills th {
+  border: 2px solid #b87a40;
+  border-radius: 10px;
+  -webkit-box-shadow: 4px 2px #0c0702e5;
+          box-shadow: 4px 2px #0c0702e5;
+}
+
+.skills td {
+  border: 2px solid #b87a40;
+  border-radius: 10px;
+  -webkit-box-shadow: 2px 4px #0c0702e5;
+          box-shadow: 2px 4px #0c0702e5;
+}
+
+.littleStory {
+  background-color: rgba(0, 0, 0, 0.681);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.hobby {
+  background-color: rgba(0, 0, 0, 0.681);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.hobbyItems ul {
+  border: 2px solid #b87a40;
+  border-radius: 5px;
+  margin: 20px;
+  list-style-type: none;
+}
+
+.hobbyItems li {
+  border: 2px solid #b87a40;
+  border-radius: 5px;
+  margin: 10px;
+  -webkit-box-shadow: 2px 4px #0c0702e5;
+          box-shadow: 2px 4px #0c0702e5;
+  list-style-type: none;
+}
+/*# sourceMappingURL=about.css.map */
