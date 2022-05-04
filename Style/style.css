@@ -35,6 +35,95 @@
   border-radius: 5px;
 }
 
+* body header .fade-in {
+  -webkit-animation: fadeIn 6s;
+          animation: fadeIn 6s;
+  opacity: 1;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+* body header .blink_me,
+* body header .brand, * body header .socialBecode {
+  -webkit-animation: blinker 2s linear infinite;
+          animation: blinker 2s linear infinite;
+}
+
+@-webkit-keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+* body header .spiningLogo {
+  margin-top: -1.5rem;
+  border-radius: 5px;
+  -webkit-animation: rotation 2s infinite linear;
+          animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}
+
+@keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+            transform: rotate(359deg);
+  }
+}
+
+@-webkit-keyframes left_to_right {
+  from {
+    margin-left: 0vw;
+  }
+  to {
+    margin-left: 100vw;
+  }
+}
+
+@keyframes left_to_right {
+  from {
+    margin-left: 0vw;
+  }
+  to {
+    margin-left: 100vw;
+  }
+}
+
 * body header nav {
   color: white;
 }
