@@ -1,5 +1,7 @@
 # verou-3-portfolio-cskeith-hub
 
+- http://www.colinrenkema.com
+
 ## Goal is to make a Portfolio site
 
 # Structure 
@@ -8,6 +10,9 @@
 # Responsive
 - make the viewable on all views
 
+# brand logo
+
+- Thanks to Evie Jongbloets for the csk logo
 
 # Used of internet 
 
