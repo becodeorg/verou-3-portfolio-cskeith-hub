@@ -265,6 +265,7 @@
 
 * body main .prev,
 * body main .next {
+  display: none;
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -340,6 +341,122 @@
   to {
     opacity: 1;
   }
+}
+
+* body main .explain {
+  background-color: rgba(0, 0, 0, 0.681);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+* body main .explain .skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(0, 0, 0, 0.681);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+* body main .explain .skills img {
+  padding: 0.5rem;
+}
+
+* body main .explain .skills .skillBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+}
+
+* body main .explain .skills .phpText {
+  display: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: rgba(45, 44, 44, 0.977);
+  z-index: 10;
+  position: absolute;
+  margin-top: -11rem;
+  margin-left: 0.6rem;
+  height: 10rem;
+  width: 17rem;
+}
+
+* body main .explain .skills .php:hover + .phpText {
+  display: block;
+}
+
+* body main .explain .skills .laravelText {
+  display: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: rgba(45, 44, 44, 0.977);
+  z-index: 10;
+  position: absolute;
+  margin-top: -11rem;
+  margin-left: -4.2rem;
+  height: 10rem;
+  width: 17rem;
+}
+
+* body main .explain .skills .laravel:hover + .laravelText {
+  display: block;
+}
+
+* body main .explain .skills .mySqlText {
+  display: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: rgba(45, 44, 44, 0.977);
+  z-index: 10;
+  position: absolute;
+  margin-top: -11rem;
+  margin-left: -9.1rem;
+  height: 10rem;
+  width: 17rem;
+}
+
+* body main .explain .skills .mySql:hover + .mySqlText {
+  display: block;
+}
+
+* body main .explain .skills .gitText {
+  display: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: rgba(45, 44, 44, 0.977);
+  z-index: 10;
+  position: absolute;
+  margin-top: -11rem;
+  margin-left: -14rem;
+  height: 10rem;
+  width: 17rem;
+}
+
+* body main .explain .skills .git:hover + .gitText {
+  display: block;
+}
+
+* body main .explain a {
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 0.5rem;
+  color: #ffffff;
+  background-color: rgba(40, 40, 40, 0.628);
+  text-decoration: none;
 }
 
 * body footer {

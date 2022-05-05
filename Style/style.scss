@@ -207,6 +207,7 @@
             /* Next & previous buttons */
             .prev,
             .next {
+                display: none;
                 cursor: pointer;
                 position: absolute;
                 top: 50%;
@@ -278,7 +279,122 @@
                 }
             }
 
+            .explain {
+                background-color: rgba(0, 0, 0, 0.681);
+                color: white;
+                // border: 1px solid white;
+                text-align: center;
+                padding: 1rem;
+                border-radius: 5px;
+                margin-bottom: 1rem;
 
+                .skills {
+                    display: flex;
+                    justify-content: center;
+                    background-color: rgba(0, 0, 0, 0.681);
+                    color: white;
+                    // border: 1px solid white;
+                    text-align: center;
+                    padding: 1rem;
+                    border-radius: 5px;
+                    margin-bottom: 1rem;
+
+                    img {
+                        padding: 0.5rem;
+                    }
+
+                    .skillBox {
+                        display: flex;
+                        margin-left: 0.5rem;
+                        margin-right: 0.5rem;
+                        border: 1px solid rgb(255, 255, 255);
+                        border-radius: 5px;
+                        background-color: #f2f2f2;
+                    }
+
+                    .phpText {
+                        display: none;
+                        border: 1px solid white;
+                        border-radius: 5px;
+                        background-color: rgba(45, 44, 44, 0.977);
+                        z-index: 10;
+                        position: absolute;
+                        margin-top: -11rem;
+                        margin-left: 0.6rem;
+                        height: 10rem;
+                        width: 17rem;
+                    }
+
+                    .php:hover+.phpText {
+                        display: block;
+                    }
+
+                    .laravelText {
+                        display: none;
+                        border: 1px solid white;
+                        border-radius: 5px;
+                        background-color: rgba(45, 44, 44, 0.977);
+
+                        z-index: 10;
+                        position: absolute;
+                        margin-top: -11rem;
+                        margin-left: -4.2rem;
+                        height: 10rem;
+                        width: 17rem;
+                    }
+
+                    .laravel:hover+.laravelText {
+                        display: block;
+                    }
+
+                    .mySqlText {
+                        display: none;
+                        border: 1px solid white;
+                        border-radius: 5px;
+                        background-color: rgba(45, 44, 44, 0.977);
+
+                        z-index: 10;
+                        position: absolute;
+                        margin-top: -11rem;
+                        margin-left: -9.1rem;
+                        height: 10rem;
+                        width: 17rem;
+                    }
+
+                    .mySql:hover+.mySqlText {
+                        display: block;
+                    }
+
+                    .gitText {
+                        display: none;
+                        border: 1px solid white;
+                        border-radius: 5px;
+                        background-color: rgba(45, 44, 44, 0.977);
+
+                        z-index: 10;
+                        position: absolute;
+                        margin-top: -11rem;
+                        margin-left: -14rem;
+                        height: 10rem;
+                        width: 17rem;
+                    }
+
+                    .git:hover+.gitText {
+                        display: block;
+                    }
+
+
+                }
+
+                a {
+                    border: 2px solid white;
+                    border-radius: 5px;
+                    padding: 0.5rem;
+                    color: #ffffff;
+                    background-color: rgba(40, 40, 40, 0.628);
+                    text-decoration: none;
+                }
+            }
 
         }
 
