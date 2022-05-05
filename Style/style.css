@@ -305,7 +305,6 @@
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
   width: 100%;
   text-align: center;
 }
@@ -343,16 +342,41 @@
   }
 }
 
-* body main .explain {
+* body main .intro {
+  border-radius: 5px;
+  margin-bottom: 0rem;
+  background-color: rgba(0, 0, 0, 0.681);
+  color: white;
+}
+
+* body main .intro .introText {
+  text-align: center;
+  text-align: left;
+  padding: 1rem;
+}
+
+* body main .intro a {
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 0.5rem;
+  color: #ffffff;
+  background-color: rgba(40, 40, 40, 0.628);
+  text-decoration: none;
+}
+
+* body main .explainFront {
+  margin-bottom: 2rem;
+}
+
+* body main .explain, * body main .explainFront {
   background-color: rgba(0, 0, 0, 0.681);
   color: white;
   text-align: center;
   padding: 1rem;
   border-radius: 5px;
-  margin-bottom: 1rem;
 }
 
-* body main .explain .skills {
+* body main .explain .skills, * body main .explainFront .skills {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -367,11 +391,11 @@
   margin-bottom: 1rem;
 }
 
-* body main .explain .skills img {
+* body main .explain .skills img, * body main .explainFront .skills img {
   padding: 0.5rem;
 }
 
-* body main .explain .skills .skillBox {
+* body main .explain .skills .skillBox, * body main .explainFront .skills .skillBox {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -379,10 +403,10 @@
   margin-right: 0.5rem;
   border: 1px solid white;
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: darkgray;
 }
 
-* body main .explain .skills .phpText {
+* body main .explain .skills .phpText, * body main .explainFront .skills .phpText {
   display: none;
   border: 1px solid white;
   border-radius: 5px;
@@ -395,11 +419,11 @@
   width: 17rem;
 }
 
-* body main .explain .skills .php:hover + .phpText {
+* body main .explain .skills .php:hover + .phpText, * body main .explainFront .skills .php:hover + .phpText {
   display: block;
 }
 
-* body main .explain .skills .laravelText {
+* body main .explain .skills .laravelText, * body main .explainFront .skills .laravelText {
   display: none;
   border: 1px solid white;
   border-radius: 5px;
@@ -412,11 +436,11 @@
   width: 17rem;
 }
 
-* body main .explain .skills .laravel:hover + .laravelText {
+* body main .explain .skills .laravel:hover + .laravelText, * body main .explainFront .skills .laravel:hover + .laravelText {
   display: block;
 }
 
-* body main .explain .skills .mySqlText {
+* body main .explain .skills .mySqlText, * body main .explainFront .skills .mySqlText {
   display: none;
   border: 1px solid white;
   border-radius: 5px;
@@ -429,11 +453,11 @@
   width: 17rem;
 }
 
-* body main .explain .skills .mySql:hover + .mySqlText {
+* body main .explain .skills .mySql:hover + .mySqlText, * body main .explainFront .skills .mySql:hover + .mySqlText {
   display: block;
 }
 
-* body main .explain .skills .gitText {
+* body main .explain .skills .gitText, * body main .explainFront .skills .gitText {
   display: none;
   border: 1px solid white;
   border-radius: 5px;
@@ -446,17 +470,21 @@
   width: 17rem;
 }
 
-* body main .explain .skills .git:hover + .gitText {
+* body main .explain .skills .git:hover + .gitText, * body main .explainFront .skills .git:hover + .gitText {
   display: block;
 }
 
-* body main .explain a {
+* body main .explain a, * body main .explainFront a {
   border: 2px solid white;
   border-radius: 5px;
   padding: 0.5rem;
   color: #ffffff;
   background-color: rgba(40, 40, 40, 0.628);
   text-decoration: none;
+}
+
+* body main .beCode {
+  background-color: black;
 }
 
 * body footer {
