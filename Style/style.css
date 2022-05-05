@@ -485,6 +485,8 @@
 
 * body main .beCode {
   background-color: black;
+  margin-top: -2rem;
+  padding-top: 1rem;
 }
 
 * body footer {
