@@ -109,10 +109,10 @@
                     /* Dropdown Button */
                     .dropbtn {
                         margin-top: -0.9rem;
-                        background-color: rgba(0, 0, 0, 0);
+                        background-color: rgb(0, 0, 0);
                         color: rgb(255, 255, 255);
-                        padding: 10px;
-                        font-size: 20px;
+                        height: 3rem;
+                        width: 4rem;
                         border: 1px solid white;
                         border-radius: 5px;
                         cursor: pointer;
@@ -190,6 +190,9 @@
 
             * {
                 box-sizing: border-box
+            }
+            .box{
+                margin-bottom: 4rem;
             }
 
             /* Slideshow container */
@@ -279,14 +282,16 @@
 
             .intro {
                 border-radius: 5px;
-                margin-bottom: 0rem;
                 background-color: rgba(0, 0, 0, 0.681);
                 color: white;
                 
+                h2{
+                    text-align: center;
+                }
 
                 .introText {
                     text-align: center;
-                    text-align: left;
+                    text-align: justify;
                     padding: 1rem;
                 }
 
@@ -300,22 +305,20 @@
                 }
             }
 
-            .explainFront{
-                margin-bottom:2rem;
-            }
+           
             .explain, .explainFront {
                 background-color: rgba(0, 0, 0, 0.681);
                 color: white;
                 // border: 1px solid white;
                 text-align: center;
-                padding: 1rem;
+                padding: 0.5rem;
                 border-radius: 5px;
                 // margin-bottom: 1rem;
 
                 .skills {
                     display: flex;
                     justify-content: center;
-                    background-color: rgba(0, 0, 0, 0.681);
+                    background-color: rgba(0, 0, 0, 0.615);
                     color: white;
                     // border: 1px solid white;
                     text-align: center;
@@ -333,7 +336,7 @@
                         margin-right: 0.5rem;
                         border: 1px solid rgb(255, 255, 255);
                         border-radius: 5px;
-                        background-color: darkgray;
+                        background-color: rgb(86, 83, 83);
                     }
 
                     .phpText {
@@ -418,8 +421,13 @@
                     background-color: rgba(40, 40, 40, 0.628);
                     text-decoration: none;
                 }
+                
+                
             }
-
+            .learn{
+                margin-top: 2rem;
+                margin-bottom: -1rem;
+            }
             .beCode{
                 background-color: black;
                 margin-top: -2rem;

@@ -164,10 +164,10 @@
 
 * body header nav .dropDown .dropbtn {
   margin-top: -0.9rem;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: black;
   color: white;
-  padding: 10px;
-  font-size: 20px;
+  height: 3rem;
+  width: 4rem;
   border: 1px solid white;
   border-radius: 5px;
   cursor: pointer;
@@ -251,6 +251,10 @@
 * body main * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+* body main .box {
+  margin-bottom: 4rem;
 }
 
 * body main .slideshow-container {
@@ -344,14 +348,17 @@
 
 * body main .intro {
   border-radius: 5px;
-  margin-bottom: 0rem;
   background-color: rgba(0, 0, 0, 0.681);
   color: white;
 }
 
+* body main .intro h2 {
+  text-align: center;
+}
+
 * body main .intro .introText {
   text-align: center;
-  text-align: left;
+  text-align: justify;
   padding: 1rem;
 }
 
@@ -364,15 +371,11 @@
   text-decoration: none;
 }
 
-* body main .explainFront {
-  margin-bottom: 2rem;
-}
-
 * body main .explain, * body main .explainFront {
   background-color: rgba(0, 0, 0, 0.681);
   color: white;
   text-align: center;
-  padding: 1rem;
+  padding: 0.5rem;
   border-radius: 5px;
 }
 
@@ -383,7 +386,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: rgba(0, 0, 0, 0.681);
+  background-color: rgba(0, 0, 0, 0.615);
   color: white;
   text-align: center;
   padding: 1rem;
@@ -403,7 +406,7 @@
   margin-right: 0.5rem;
   border: 1px solid white;
   border-radius: 5px;
-  background-color: darkgray;
+  background-color: #565353;
 }
 
 * body main .explain .skills .phpText, * body main .explainFront .skills .phpText {
@@ -481,6 +484,11 @@
   color: #ffffff;
   background-color: rgba(40, 40, 40, 0.628);
   text-decoration: none;
+}
+
+* body main .learn {
+  margin-top: 2rem;
+  margin-bottom: -1rem;
 }
 
 * body main .beCode {

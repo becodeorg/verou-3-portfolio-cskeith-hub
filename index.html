@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="./Style/style.css">
     <link rel="shortcut icon" href="/images/Black.png">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <meta name="author" content="Colin Renkema">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Portfolio, Projects">
+    <meta name="description" content="Portfolio Website">
+
 </head>
 
 <body>
@@ -24,7 +28,8 @@
             </div>
 
             <div class="dropDown">
-                <button onclick="myFunction()" class="dropbtn">MENU</button>
+                <button onclick="myFunction()" class="dropbtn"><i class="material-icons">menu</i></button>
+
                 <div id="myDropdown" class="dropdown-content">
                     <div class="spiningLogo">
                         <img src="/images/White.png" width="60" height="60" alt="logo">
@@ -39,12 +44,12 @@
     <main>
         <div id="name">
             <h1>
-                <i class="material-icons">computer</i>
+                <i class="material-icons">phone_iphone</i>
                 Colin Renkema
-                <i class="material-icons">computer</i>
+                <i class="material-icons">phone_iphone</i>
             </h1>
-            <p>Web Development</p>
-            <h6>Mobile First</h6>
+            <h3>Web Development</h3>
+            <P>Mobile First</P>
         </div>
         <div class="box">
             <!-- Slideshow container -->
@@ -53,25 +58,21 @@
                 <!-- Full-width images with number and caption text -->
                 <div class="mySlides fade">
 
-                    <img src="/images/linkedin_social media_job_network_icon.png" style="width:67%">
-                    <div class="text"><i>Dummy Image</i></div>
+                    <img src="/images/linkedin_social media_job_network_icon.png" style="width:67%" alt="Colin Renkema">
+                    <div class="text"><i>Colin Renkema</i></div>
                 </div>
 
                 <div class="mySlides fade">
 
-                    <img src="/images/code_bg_2.jpg" style="width:100%">
-                    <div class="text"><i>Dummy Image</i></div>
+                    <img src="/images/code_bg_2.jpg" style="width:100%" alt="Dummy Code2">
+                    <div class="text"><i>Dummy code</i></div>
                 </div>
 
                 <div class="mySlides fade">
 
-                    <img src="/images/code_bg_3.jpg" style="width:100%">
-                    <div class="text"><i>Dummy Image</i></div>
+                    <img src="/images/code_bg_3.jpg" style="width:100%" alt="Dummy code3">
+                    <div class="text"><i>Dummy code 2</i></div>
                 </div>
-
-                <!-- Next and previous buttons -->
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </div>
             <br>
             <div style="text-align:center">
@@ -81,23 +82,26 @@
             </div>
             <div class="intro">
                 <div class="introText">
-                    <h2>Welcome at CSK hub.</h2>
+                    <h2>Welcome at the CSK hub.</h2>
                     <br>
                     <p>
-                        Here you will find information about, Colin Renkema.
-                        In December 2021 I got the chance to school myself into a web Developer,
-                        Becode saw potential in me as a developer. And I went on the Becode journey,
-                        6 months later and X technologies richer I am capable of learning my way into the web.
-                        As a result of my progress I am in need of a portfolio.
+                        Hi, I’m Colin Renkema and this is my story. I already had several jobs in my live. I worked in
+                        construction, as a cook in a restaurant and the last 7 years I worked as a production worker in
+                        a flax company.
+                        In October 2021 I started a new adventure and focused full time on my interest in coding and web
+                        develoment. I applied for a training programme at becode and I was very happy they saw potential
+                        in me. I started the Becode journey and got the chance to school myself as a web developer.
+                        6 Months later and many technologies richer, I have learned the necessary tools to further
+                        develop
+                        my knowledge. In this portfolio you can find the results of my progress.
                     </p>
                 </div>
-                <a href="/Pages/About/aboutme.html">Learn more</a>
+                <br>
+                <a href="/Pages/About/aboutme.html">About me</a>
             </div>
             <div class="explain">
                 <br>
                 <hr>
-                <br>
-                <h3>Back-End Development</h3>
                 <br>
                 <p><b>Junior Back-End Developer.</b></p>
                 <div class="skills">
@@ -127,10 +131,10 @@
                         </div>
                     </div>
                     <div class="skillBox">
-                        <div class="mySql"><img src="/images/mysql.png" alt="HTML" width="60" height="60"></div>
+                        <div class="mySql"><img src="/images/mysql (1).png" alt="HTML" width="60" height="60"></div>
                         <div class="mySqlText">
                             <br>
-                            <h3>mySql</h3>
+                            <h3>MySql</h3>
                             <br>
                             <p>Database ManagerSystem:</p>
                             <p>use of SQL</p>
@@ -152,15 +156,13 @@
                     </div>
                 </div>
                 <div class="learn">
-                    <a href="/Pages/Project/projects.html">Learn more</a>
+                    <a href="/Pages/Project/projects.html">My projects</a>
                 </div>
             </div>
 
             <div class="explainFront">
                 <br>
                 <hr>
-                <br>
-                <h3>Front-End Development</h3>
                 <br>
                 <p><b>Junior Front-End Developer.</b></p>
                 <div class="skills">
@@ -217,18 +219,19 @@
                     </div>
                 </div>
                 <div class="learn">
-                    <a href="/Pages/Project/projects.html">Learn more</a>
+                    <a href="/Pages/Project/projects.html">My projects</a>
                 </div>
             </div>
-            
+            <br>
         </div>
+       
         <div class="beCode">
             <h1> Thanks Becode</h1>
             <br>
             <iframe width="315" height="300" src="https://www.youtube.com/embed/0AbCYHswSuM"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen></iframe>
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
         </div>
 
     </main>
