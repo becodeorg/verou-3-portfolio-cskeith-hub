@@ -82,6 +82,104 @@
           box-shadow: 2px 4px #0c0702e5;
 }
 
+.skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(0, 0, 0, 0.615);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.skills img {
+  padding: 0.5rem;
+}
+
+.skills .skillBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: #565353;
+}
+
+.skills .phpText {
+  display: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: rgba(45, 44, 44, 0.977);
+  z-index: 10;
+  position: absolute;
+  margin-top: -11rem;
+  margin-left: 0.6rem;
+  height: 10rem;
+  width: 17rem;
+}
+
+.skills .php:hover + .phpText {
+  display: block;
+}
+
+.skills .laravelText {
+  display: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: rgba(45, 44, 44, 0.977);
+  z-index: 10;
+  position: absolute;
+  margin-top: -11rem;
+  margin-left: -4.2rem;
+  height: 10rem;
+  width: 17rem;
+}
+
+.skills .laravel:hover + .laravelText {
+  display: block;
+}
+
+.skills .mySqlText {
+  display: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: rgba(45, 44, 44, 0.977);
+  z-index: 10;
+  position: absolute;
+  margin-top: -11rem;
+  margin-left: -9.1rem;
+  height: 10rem;
+  width: 17rem;
+}
+
+.skills .mySql:hover + .mySqlText {
+  display: block;
+}
+
+.skills .gitText {
+  display: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: rgba(45, 44, 44, 0.977);
+  z-index: 10;
+  position: absolute;
+  margin-top: -11rem;
+  margin-left: -14rem;
+  height: 10rem;
+  width: 17rem;
+}
+
+.skills .git:hover + .gitText {
+  display: block;
+}
+
 .hobby {
   background-color: rgba(0, 0, 0, 0.681);
   color: white;
