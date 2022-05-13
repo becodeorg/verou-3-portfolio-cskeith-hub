@@ -58,30 +58,6 @@
   padding: 0.5rem;
 }
 
-.skills table {
-  border: 2px solid #b87a40;
-  border-radius: 5px;
-  margin: 0.1rem;
-  background-color: #154551a9;
-  text-shadow: 2px 2px #180e04de;
-  height: 5rem;
-  width: 19rem;
-}
-
-.skills th {
-  border: 2px solid #b87a40;
-  border-radius: 10px;
-  -webkit-box-shadow: 4px 2px #0c0702e5;
-          box-shadow: 4px 2px #0c0702e5;
-}
-
-.skills td {
-  border: 2px solid #b87a40;
-  border-radius: 10px;
-  -webkit-box-shadow: 2px 4px #0c0702e5;
-          box-shadow: 2px 4px #0c0702e5;
-}
-
 .skills {
   display: -webkit-box;
   display: -ms-flexbox;
