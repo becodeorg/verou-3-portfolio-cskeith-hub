@@ -3,12 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 
+
     body {
         background-image: url(/images/backGroundWallPaper.jpg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
         font-family: sans-serif;
+
 
         header {
             border: 1px solid black;
@@ -171,7 +173,33 @@
             }
         }
 
+        .underConstuction{
+            @media only screen and (min-width: 426px) {
+                display: flex;
+            }
+            display: none;
+            justify-content: center;
+            margin-top: 20rem;
+            color: white;
+            text-align: center;
+            height:  50vh;
+            width: 99vw;
+            .ucText{
+                border: 1px solid yellow;
+                background-color: cadetblue;
+                border-radius: 5px;
+                width: 20em;
+                height: 10rem;
+                font-size: 2rem;
+                padding-top: 2.7rem;
+                
+            }
+        }
+
         main {
+            @media only screen and (min-width: 426px) {
+                display: none;
+            }
             text-align: center;
             color: white;
 
@@ -191,7 +219,8 @@
             * {
                 box-sizing: border-box
             }
-            .box{
+
+            .box {
                 margin-bottom: 4rem;
             }
 
@@ -284,8 +313,8 @@
                 border-radius: 5px;
                 background-color: rgba(0, 0, 0, 0.681);
                 color: white;
-                
-                h2{
+
+                h2 {
                     text-align: center;
                 }
 
@@ -305,8 +334,9 @@
                 }
             }
 
-           
-            .explain, .explainFront {
+
+            .explain,
+            .explainFront {
                 background-color: rgba(0, 0, 0, 0.681);
                 color: white;
                 // border: 1px solid white;
@@ -421,20 +451,24 @@
                     background-color: rgba(40, 40, 40, 0.628);
                     text-decoration: none;
                 }
-                
-                
+
+
             }
-            .learn{
+
+            .learn {
                 margin-top: 2rem;
                 margin-bottom: -1rem;
             }
-            .beCode{
+
+            .beCode {
                 background-color: black;
                 margin-top: -2rem;
-                padding-top: 1rem ;
+                padding-top: 1rem;
             }
 
         }
+
+
 
         footer {
             border: 1px solid black;
@@ -472,5 +506,8 @@
                 }
             }
         }
+
     }
+
+
 }

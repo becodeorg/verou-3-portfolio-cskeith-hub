@@ -217,6 +217,36 @@
   display: none;
 }
 
+* body .underConstuction {
+  display: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20rem;
+  color: white;
+  text-align: center;
+  height: 50vh;
+  width: 99vw;
+}
+
+@media only screen and (min-width: 426px) {
+  * body .underConstuction {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+* body .underConstuction .ucText {
+  border: 1px solid yellow;
+  background-color: cadetblue;
+  border-radius: 5px;
+  width: 20em;
+  height: 10rem;
+  font-size: 2rem;
+  padding-top: 2.7rem;
+}
+
 * body main {
   text-align: center;
   color: white;
@@ -228,6 +258,12 @@
   /* Caption text */
   /* Number text (1/3 etc) */
   /* Fading animation */
+}
+
+@media only screen and (min-width: 426px) {
+  * body main {
+    display: none;
+  }
 }
 
 * body main #name {
@@ -371,7 +407,8 @@
   text-decoration: none;
 }
 
-* body main .explain, * body main .explainFront {
+* body main .explain,
+* body main .explainFront {
   background-color: rgba(0, 0, 0, 0.681);
   color: white;
   text-align: center;
@@ -379,7 +416,8 @@
   border-radius: 5px;
 }
 
-* body main .explain .skills, * body main .explainFront .skills {
+* body main .explain .skills,
+* body main .explainFront .skills {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -394,11 +432,13 @@
   margin-bottom: 1rem;
 }
 
-* body main .explain .skills img, * body main .explainFront .skills img {
+* body main .explain .skills img,
+* body main .explainFront .skills img {
   padding: 0.5rem;
 }
 
-* body main .explain .skills .skillBox, * body main .explainFront .skills .skillBox {
+* body main .explain .skills .skillBox,
+* body main .explainFront .skills .skillBox {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -409,7 +449,8 @@
   background-color: #565353;
 }
 
-* body main .explain .skills .phpText, * body main .explainFront .skills .phpText {
+* body main .explain .skills .phpText,
+* body main .explainFront .skills .phpText {
   display: none;
   border: 1px solid white;
   border-radius: 5px;
@@ -422,11 +463,13 @@
   width: 17rem;
 }
 
-* body main .explain .skills .php:hover + .phpText, * body main .explainFront .skills .php:hover + .phpText {
+* body main .explain .skills .php:hover + .phpText,
+* body main .explainFront .skills .php:hover + .phpText {
   display: block;
 }
 
-* body main .explain .skills .laravelText, * body main .explainFront .skills .laravelText {
+* body main .explain .skills .laravelText,
+* body main .explainFront .skills .laravelText {
   display: none;
   border: 1px solid white;
   border-radius: 5px;
@@ -439,11 +482,13 @@
   width: 17rem;
 }
 
-* body main .explain .skills .laravel:hover + .laravelText, * body main .explainFront .skills .laravel:hover + .laravelText {
+* body main .explain .skills .laravel:hover + .laravelText,
+* body main .explainFront .skills .laravel:hover + .laravelText {
   display: block;
 }
 
-* body main .explain .skills .mySqlText, * body main .explainFront .skills .mySqlText {
+* body main .explain .skills .mySqlText,
+* body main .explainFront .skills .mySqlText {
   display: none;
   border: 1px solid white;
   border-radius: 5px;
@@ -456,11 +501,13 @@
   width: 17rem;
 }
 
-* body main .explain .skills .mySql:hover + .mySqlText, * body main .explainFront .skills .mySql:hover + .mySqlText {
+* body main .explain .skills .mySql:hover + .mySqlText,
+* body main .explainFront .skills .mySql:hover + .mySqlText {
   display: block;
 }
 
-* body main .explain .skills .gitText, * body main .explainFront .skills .gitText {
+* body main .explain .skills .gitText,
+* body main .explainFront .skills .gitText {
   display: none;
   border: 1px solid white;
   border-radius: 5px;
@@ -473,11 +520,13 @@
   width: 17rem;
 }
 
-* body main .explain .skills .git:hover + .gitText, * body main .explainFront .skills .git:hover + .gitText {
+* body main .explain .skills .git:hover + .gitText,
+* body main .explainFront .skills .git:hover + .gitText {
   display: block;
 }
 
-* body main .explain a, * body main .explainFront a {
+* body main .explain a,
+* body main .explainFront a {
   border: 2px solid white;
   border-radius: 5px;
   padding: 0.5rem;
