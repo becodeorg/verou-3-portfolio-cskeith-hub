@@ -207,7 +207,7 @@
   display: none;
 }
 
-* body .underConstuction {
+* body .underConstruction {
   display: none;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -220,14 +220,14 @@
 }
 
 @media only screen and (min-width: 426px) {
-  * body .underConstuction {
+  * body .underConstruction {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
 }
 
-* body .underConstuction .ucText {
+* body .underConstruction .ucText {
   border: 1px solid yellow;
   background-color: cadetblue;
   border-radius: 5px;
