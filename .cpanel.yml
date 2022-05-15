@@ -4,5 +4,12 @@ deployment:
     - export DEPLOYPATH=/home/coliakfm/public_html/
     - /bin/cp index.html $DEPLOYPATH 
     - /bin/cp style.css $DEPLOYPATH 
+    - /bin/cp main.js $DEPLOYPATH
+    - /bin/cp Style $DEPLOYPATH  
+    - /bin/cp Pages $DEPLOYPATH
+    - /bin/cp images $DEPLOYPATH 
+
+
+
 
     
