@@ -2,8 +2,12 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/coliakfm/public_html/
-    - /bin/cp index.html $DEPLOYPATH 
-    - /bin/cp style.css $DEPLOYPATH 
+    - cp index.html $DEPLOYPATH 
+    - cp main.js $DEPLOYPATH
+    - cp ./Style/style.css $DEPLOYPATH
+    - cp -r ./images $DEPLOYPATH
+    - cp -r ./Pages $DEPLOYPATH
+
 
 
 
