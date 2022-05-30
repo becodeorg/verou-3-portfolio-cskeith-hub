@@ -4,7 +4,7 @@ deployment:
     - export DEPLOYPATH=/home/coliakfm/public_html/
     - cp index.html $DEPLOYPATH 
     - cp main.js $DEPLOYPATH
-    - cp ./Style/style.css $DEPLOYPATH
+    - cp -r ./Style $DEPLOYPATH
     - cp -r ./images $DEPLOYPATH
     - cp -r ./Pages $DEPLOYPATH
 
